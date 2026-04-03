@@ -1,2 +1,14 @@
+[project]
+name = "profile-api"
+version = "0.1.0"
+description = "Personal Profile Backend."
+authors = [
+    { name = "Soumyadip Hati", email = "soumyadiphati19@outlook.com" }
+]
+dependencies = [
+    "fastapi[standard]==0.113.0",
+    "pydantic"
+]
+
 [tool.fastapi]
 entrypoint = "src.main:app"
